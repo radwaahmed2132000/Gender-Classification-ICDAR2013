@@ -3381,3 +3381,5 @@ Datasets/SanityDataset/Male/two_564.jpg
 CMP23-Dataset/.DS_Store
 CMP23-Dataset/Female/.DS_Store
 CMP23-Dataset/Male/.DS_Store
+Datasets/CMP23-Dataset/data.npy
+.DS_Store
