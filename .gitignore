@@ -4599,3 +4599,7 @@ Datasets/ICDAR2013_Clipped/Male/M97.png
 Datasets/ICDAR2013_Clipped/Male/M98.png
 Datasets/ICDAR2013_Clipped/Male/M99.png
 .DS_Store
+.DS_Store
+.DS_Store
+.DS_Store
+*.pth
