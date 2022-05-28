@@ -1,0 +1,49 @@
+Please Read Carefully the Technical Deliverables: 
+    
+* We expect you to deliver a working project code with a main script named "predict.py" that accepts two environment arguments:
+    1. "FULL" path to the test set directory (e.g. /home/usr/someone/somewhere/test/)
+    2. "FULL" path to the output directory (e.g. /home/usr/someone/somewhere/out/)
+
+* All test images are in JPG format. The images are named "001.jpg", "002.jpg", ... , "00M.jpg"
+* Your code should read the images correctly from the test set directory, process them then output the classification.
+* You should output exactly two files to the output directory:
+    1. results.txt
+    2. times.txt
+
+* You will be given M-test samples. We expect both output files to have exactly M-lines (Please make sure you dont add extra new line at the end of the file).
+* The results and times formats should be as follows: If you have 3  test samples and your classifications were (1,0,1) with respective times "IN SECONDS" (0.63, 1.25,1.9). 
+Files should look exactly like this:
+
+--------------------------------------------------------------------------------------
+|    results.txt                        |             times.txt                 |
+--------------------------------------------------------------------------------------
+|    1                                      |    0.63                                |
+|    0                                      |    1.25                                |
+|    1                                      |    1.9                                  | 
+--------------------------------------------------------------------------------------
+
+* Note that 1 represents Male class and 0 represents Female class
+
+* If, god forbid, your code failed for the second test case for any reason, you should add a record for it in the results and times files. 
+For failed outputs, please use '-1' as their classification and report the time they took up to failure point.
+Hence the output files should look like this: (assuming it failed after 760 milliseconds)
+
+--------------------------------------------------------------------------------------
+|    results.txt                        |             times.txt                 |
+--------------------------------------------------------------------------------------
+|    1                                      |    0.63                                |
+|   -1                                      |    0.76                                |
+|    1                                      |    1.9                                  |   
+--------------------------------------------------------------------------------------
+
+* Your times file shouldn't include ANY zero records. If you find a time of Zero in your timing, please add 1 milliseconds as tolerance, otherwise our calculation of time will result to INF.
+
+* Finally and most importantly: your times and results files should have exactly the same number of records as our ground truth (M lines). If not, for any reason, this will miss-up the classification and for sure your performance will be highly affected.
+
+* Attached is the evaluation script, as well as sample output files.
+* Attached also a sample test set (6 test examples) with their ground truth file.
+
+* If you are using specific versions of libraries, you should add a requirements.txt file specifying them.
+For example:  tensorflow=2.1.1
+
+* The evaluation will be performed on CPU, so please don't build your code to be run on GPU.
