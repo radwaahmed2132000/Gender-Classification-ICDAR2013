@@ -21,3 +21,5 @@ Datasets/CMP2023/*
 Datasets/CMP2023_Clipped/*
 Datasets/ICDAR2013_Clipped/*
 *.pth
+*.npy
+.DS_Store
