@@ -16,7 +16,7 @@ This is an example for feature visualization (fractal features): <br>
 We have considered NN, CNN, Random Forest, SVM, XGboost, Adaboost. Because both accuracy and performance mattered for the project (along with other constraints) only SVM made it to the final model. You can read more on that in the project's report. The "Deep Learning" and "Models" folders include the relevant models. 
 
 ## Running the Project 🚀
-If you are a developer then you know how to navigate to the corresponding model/feature extractor/preprocessing module and run it. Otherwise, to test the final model you can run evaluate.py in the "Submissions" folder while having the test data in the test folder with labels in the groundtruth text file. When you finish you will find the model results and time taken in the "out" folder inside.
+If you are a developer then you know how to navigate to the corresponding model/feature extractor/preprocessing module and run it. Otherwise, to test the final model you can run "evaluate.py" in the "Submissions" folder while having the test data in the test folder with labels in the groundtruth text file. When you finish you will find the model results and time taken in the "out" folder. The "test", "out" folders along with "evaluate.py" and "groundtruth.txt" rest within the "Submissions" folder.
 
 ## Collaborators
 
