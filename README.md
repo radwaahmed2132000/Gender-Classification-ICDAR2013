@@ -21,5 +21,5 @@ If you are a developer then you know how to navigate to the corresponding model/
 ## Collaborators
 
 <!-- readme: collaborators -start -->
-<!-- readme: collaborators -stop -->
+<!-- readme: collaborators -end -->
 
