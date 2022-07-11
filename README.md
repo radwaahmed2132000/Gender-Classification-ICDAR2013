@@ -1,5 +1,5 @@
 # Gender-Classification-ICDAR2013
-This is a gender classifer that based on a given sample of handwritten text decides if the origin of the text is male or female. This model won first place 🥇 in the competition that corresponded to the project in fulfillment of the classwork requirements of the neural networks course taught to computer engineering juniors in Cairo University.
+This is a gender classifier that based on a given sample of handwritten text decides if the origin of the text is male or female. This model won first place 🥇 in the competition that corresponded to the project in fulfillment of the classwork requirements of the neural networks course taught to computer engineering juniors in Cairo University.
 
 ## Datasets & Preprocessing 💾 
 We initially considered handwritten samples from both the dataset that was collected <a href="https://www.kaggle.com/datasets/essamwisamfouad/cmp23-handwritten-males-vs-females"> from our class</a> and the <a href="https://www.kaggle.com/competitions/icdar2013-gender-prediction-from-handwriting" >ICDAR2013 dataset </a> but the final model (which was known to be tested on a CMP23 test set) only uses the former. The relevant folder with the two files responsible of preprocessing (filtering and whitespace removal) and reading the images is the "Preprocessing" folder. <br> <br>
